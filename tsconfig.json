@@ -1,0 +1,22 @@
+{
+      "compilerOptions": {
+            "target": "es2020",        // Versión de ECMAScript que se utiliza (puedes ajustar según tus necesidades)
+            "module": "commonjs",      // Sistema de módulos a utilizar
+            "outDir": "./dist",        // Directorio de salida para los archivos compilados
+            "rootDir": "./src",        // Directorio raíz de los archivos fuente TypeScript
+            "strict": true,            // Habilita todas las opciones de comprobación estricta
+            "esModuleInterop": true,   // Habilita la interoperabilidad de módulos de estilo ES en CommonJS
+            "skipLibCheck": true,      // Evita la comprobación de las definiciones de tipos de las bibliotecas incluidas
+            "forceConsistentCasingInFileNames": true,  // Asegura consistencia en los nombres de archivo
+            "resolveJsonModule": true, // Permite la importación de módulos JSON
+            "isolatedModules": true,   // Aísla cada archivo en su propio ámbito de comprobación
+            "noEmit": false            // Habilita la emisión de archivos compilados
+      },
+      "include": [
+            "src/**/*.ts"             // Patrón de inclusión de archivos fuente TypeScript
+      ],
+      "exclude": [
+            "node_modules"            // Carpetas o archivos excluidos de la compilación
+      ]
+}
+    
